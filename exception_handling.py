@@ -1,10 +1,12 @@
 
+x = 10  # Define x before using it
+
 try:
     print(x)
 except NameError:
     print("Variable x is not defined")
 else:
-    print("Everything went wrong")
+    print("Everything went well")
     
 x = -1
 
